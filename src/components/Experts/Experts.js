@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react';
-
 import mechanic1 from '../../Images/mechanic-1.jpg';
 import mechanic2 from '../../Images/mechanic-2.jpg'
 import mechanic3 from '../../Images/mechanic-3.jpg'

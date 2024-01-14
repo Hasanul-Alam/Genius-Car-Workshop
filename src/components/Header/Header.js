@@ -24,9 +24,6 @@ const Header = () => {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to='/login'>Login</NavLink>
                             </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" to='/booking'>Booking</NavLink>
-                            </li>
                         </ul>
                         <ul className=" d-flex navbar-nav mb-lg-0">
                             <li className="nav-item">

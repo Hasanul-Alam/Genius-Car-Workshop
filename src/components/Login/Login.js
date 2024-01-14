@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const { googleSignIn, getEmail, getPassword, signInWithEmailPassword, error } = useFirebase();
+    const { googleSignIn, getEmail, getPassword, signInWithEmailPassword, error } = useAuth();
     return (
         <div>
             <div className="container mt-5">
